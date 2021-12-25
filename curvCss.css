@@ -126,13 +126,16 @@ p {
 
 .flip {
     margin-top: 0%;
-    transform: rotate(180deg);
+    background-image: url("./layer1.svg");
 }
 
 .pink {
-    background-color: #ff0074;
+    background: linear-gradient(180deg, 
+    rgb(255, 0, 116) 0%,
+    rgb(255, 255, 255) 100%);
+    
     overflow: hidden;
-}
+} 
 
 .blob-motion{
     position: absolute;
